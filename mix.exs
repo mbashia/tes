@@ -14,9 +14,9 @@ defmodule Tes.MixProject do
         tes: [
           # include start/daemon executables for Unix
           include_executables_for: [:unix],
-          applications: [runtime_tools: :permanent],
+          applications: [runtime_tools: :permanent]
         ]
-      ],
+      ]
       # default_release: :tes
     ]
   end
